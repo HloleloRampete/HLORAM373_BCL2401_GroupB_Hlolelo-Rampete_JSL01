@@ -12,7 +12,7 @@ function validateSyntax() {
     */ 
         // Check if input starts with 'pet_' and followed by alphanumeric characters
 
-        if (/^pet_\d+[a-zA-Z]+$/.test(input)) {
+        if (/^pet_\d+[a-zA-Z]+$/.test(input)) {   // use curly brackets to restrict the number of digits allowed 
             result = 'Valid Syntax 🟢 ';
         } else {
             result = 'Invalid Syntax 🔴';
